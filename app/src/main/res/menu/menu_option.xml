@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="change value"
+        android:id="@+id/menu_change"
+        app:showAsAction="never"
+        >
+
+        <menu>
+        <item
+            android:title="IP"
+            android:id="@+id/menu_ip"
+            app:showAsAction="never"
+            />
+        <item
+            android:title="PORT"
+            android:id="@+id/menu_port"
+            app:showAsAction="never"
+            />
+        <item
+            android:title="WIFI"
+            android:id="@+id/menu_wifi"
+            app:showAsAction="never"
+            />
+        </menu>
+    </item>
+</menu>
